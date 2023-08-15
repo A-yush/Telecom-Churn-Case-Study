@@ -6,7 +6,7 @@
 * [Objectives](#objectives)
 * [Data](#data)
 * [Algorithms Used](#algorithms-used)
-* [Conclusion] (#conclusion)
+* [Conclusion](#conclusion)
 * [Feature Importance](#feature-importance)
 * [Recommendations](#recommendations)
 * [Model Evaluation](#model-evaluation)
@@ -42,6 +42,9 @@ The data consists of 4 files:
 
 Target column is "churn_probability" which denotes 1 for customer who churned and 0 for customer who didn't churn. See references section to get Data download link.
 
+Distribution of customers who churned vs not churned:
+
+![Data-Visualization](https://github.com/A-yush/Telecom-Churn-Case-Study/blob/master/images/churn-prob.png)
 
 ## Algorithms used
 1. PCA for removing collinearity and reducing complexity of model.
@@ -63,6 +66,8 @@ Target column is "churn_probability" which denotes 1 for customer who churned an
 
 ## Feature Importance
 
+![Feature-importance](https://github.com/A-yush/Telecom-Churn-Case-Study/blob/master/images/Feature-Importance.png)
+
 
 ## Recommendations
 
@@ -74,8 +79,9 @@ Hence, in order to prevent churn, company can:
 
 ### Model Evaluation
 
-Plotting of AUC-ROC curve
+Plotting of AUC-ROC curve for Random Forect Classifier:
 
+![RandomForestClassifier](https://github.com/A-yush/Telecom-Churn-Case-Study/blob/master/images/RandomForestClassifier.png)
 
 ## References
 - Kaggle Data: https://www.kaggle.com/competitions/telecom-churn-case-study-hackathon-c48/data
